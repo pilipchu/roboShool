@@ -1,0 +1,15 @@
+body{
+    font-family: Jost;
+    background-color: #fff;
+}
+img {
+    display: block;
+}
+ul, ol {
+    list-style: none;
+}
+.icon{
+   height: 783px;
+   width: 783px;
+   fill: black;
+}
