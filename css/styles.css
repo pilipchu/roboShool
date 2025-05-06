@@ -14,14 +14,14 @@ ul, ol {
    fill: black;
 }
 
-nav a {
+.navLink {
   position: relative;
   text-decoration: none;
   color: inherit;
 }
 
-nav a::before,
-nav a::after {
+.navLink::before,
+.navLink::after {
   content: "";
   position: absolute;
   left: 0;
@@ -32,20 +32,20 @@ nav a::after {
   transition: transform 0.3s ease;
 }
 
-nav a::before {
+.navLink::before {
   top: 0;
   transform-origin: left;
 }
 
-nav a::after {
+.navLink::after {
   bottom: 0;
   transform-origin: right;
 }
 
-nav a:hover::before {
+.navLink:hover::before {
   transform: scaleX(1);
 }
 
-nav a:hover::after {
+.navLink:hover::after {
   transform: scaleX(1);
 }
