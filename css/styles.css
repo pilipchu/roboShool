@@ -7,9 +7,216 @@ img {
 }
 ul, ol {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.conteiner{
+    padding-left: 380px;
+    padding-right: 380px;
+}
+
+header{
+    background-color: #141024;
 }
 .icon{
    height: 783px;
    width: 783px;
    fill: black;
+}
+
+.logo{
+    padding-left: 100px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+
+.containerNav{
+    display: flex;
+    align-items: center;
+}
+
+.navLink{
+    display: flex;
+    padding-top: 38px;
+    min-width: 324px;
+    margin-left: 470px;
+    gap: 40px;
+}
+
+.itemNav a{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    
+}
+
+.itemNav {
+    position: relative;
+  }
+  
+  .itemNav::before,
+  .itemNav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: orangered;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .itemNav::before {
+    top: 0;
+    transform-origin: left;
+  }
+  
+  .itemNav a::after {
+    bottom: 0;
+    transform-origin: right;
+  }
+  
+  .itemNav:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .navLink a:hover::after {
+    transform: scaleX(1);
+  }
+
+  .navLink a:hover, .navLink a:active, .navLink a:focus{
+    color: aqua;
+  }
+
+.address{
+    padding-top: 30px;
+    padding-right: 100px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+
+.conteinerHeader{
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner{
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fist{
+    background-color: #141024;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 213px;
+}
+
+.hero{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+
+.hero-p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: 478px;
+}
+
+.btn-hero{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: #D52027;
+    padding: 25px 54px 25px 54px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.conteiner-img{
+    position: relative;
+    margin-top: 92.52px;
+}
+
+.img-hero{
+    position: relative;
+    z-index: 99;
+}
+
+.icon{
+    position: absolute;
+    top: 100.12px;
+    left: -133px;
+}
+
+.sicret-hero{
+    display: none;
+}
+
+.about-school{
+    color: #141024;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.6;
+    width: 891px;
+    height: auto;
+}
+
+.about{
+    padding-top: 120px;
+}
+
+.link-about{
+    display: flex;
+    margin-top: 60px;
+}
+
+.hero-about{
+    color: #D52027;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.about-p{
+    color: #141024B3;
+    width: 260px;
+}
+
+.item-about:not(:last-child){
+    margin-right: 40px;
+}
+
+.item-about:last-child{
+    margin-left: ;
 }
