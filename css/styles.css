@@ -117,12 +117,14 @@ position: relative;
     padding-left: 380px;
     padding-right: 380px;
     padding-top: 120px;
+    padding-bottom: 120px;
     max-width: 1920px;
 }
 
 
 .fist{
     padding-top: 0;
+    padding-bottom: 0;
     background-color: #141024;
     display: flex;
     gap: 160.99px;
@@ -182,4 +184,85 @@ position: relative;
     position: absolute;
     width: 783px;
     height: 783px;
+}
+
+.sicret-hero{
+    display: none;
+    position: absolute;
+}
+
+.about-school{
+    font-family: jost;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.6;
+    width: 891px;
+    color: #141024;
+}
+
+.span-about{
+    font-weight: 600;
+}
+
+.link-about{
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.hero-about{
+    font-family: jost;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #D52027;
+}
+
+.about-p{
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: inherit;
+    width: 260px;
+    color: #141024B3;
+}
+
+.inform{
+padding: 100px 380px;
+background-color: #F9F9F9;
+}
+
+.WhatYouGet{
+    font-family: inherit;
+    font-size: 50px;
+    font-weight: 600;
+    color: #141024;
+    line-height: 1.6;
+}
+
+.list-items{
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.itemList{
+    width: 360px;
+}
+
+.tietelItem{
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #141024;
+}
+
+.textItem{
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #141024B3;
+    margin-top: 20px;
 }
